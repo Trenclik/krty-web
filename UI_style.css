@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+}
+header{
+    min-width: 358px;
+}
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgba(168,188,132);
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.odkazy{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 40px;
+    min-width: 570px;
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+}
+
+.search{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    width: 177px;
+    height: 40px;
+    padding: 10px;
+}
+
+.odkazy a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: larger;
+    font-family: sans-serif;
+    color: black;
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 100%;
+    width: 20%;
+
+}
+
+.odkazy a:hover{
+    background-color: rgb(126, 155, 72);
+}
