@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php ?>
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
@@ -7,17 +8,17 @@
 </head>
 <body>
     <header>
-        <a href="index.php"><img src="/obrázky/logo.png" alt=""></a>
+        <a id="logo" href="index.php"><img id="logo" src="/obrázky/logo.png" alt=""></a>
 
     </header>
 
     <nav>
         <div class="odkazy">
-            <a id="a" href="#">Obec</a>
-            <a id="a" href="#">Úřad</a>
-            <a id="a" href="#">Aktuálně</a>
-            <a id="a" href="#">Fotogalerie</a>
-            <a id="a" href="#">Kontakt</a>
+            <a href="#">Obec</a>
+            <a href="#">Úřad</a>
+            <a href="#">Aktuálně</a>
+            <a href="#">Fotogalerie</a>
+            <a href="#">Kontakt</a>
         </div>
         <div class="search">
             <input type="text">
