@@ -1,3 +1,21 @@
-body{
-    background-color: rgb(228, 255, 224);
+.obr{
+    width: 100%;
+    background-color: rgba(175, 255, 172, 0.534);
+    z-index: 0;
+}
+.slide{
+    position: relative;
+
+    width: 100%;
+    z-index: 1;
+}
+main{
+    margin: 0px;
+}
+@media screen and (max-width: 768px) { /* mobil */
+    .slide{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
 }

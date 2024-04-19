@@ -10,10 +10,7 @@
     include 'UI.php'
 ?>
 
-    <main>
-        <img class="slide" src="/obrázky/slideshow.jpg" alt="">
 
-    </main>
     <?php 
         include 'UI_foot.php'
     ?>
