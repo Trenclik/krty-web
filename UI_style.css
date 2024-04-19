@@ -37,7 +37,6 @@ nav{
     flex-wrap: wrap;
     justify-content: space-around;
     margin-left: 40px;
-    min-width: 570px;
     max-width: 1000px;
     height: 100%;
 }
@@ -51,7 +50,7 @@ nav{
 .blok ul{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 }
 
 .blok ul li:hover{
@@ -66,7 +65,7 @@ footer{
     display: flex;
     justify-content: space-around;
     background-color: rgba(168,188,132);
-    min-height: 300px;
+    height: calc(100vh - 80px);
     width: 100%;
 }
 
@@ -104,7 +103,7 @@ input.search{
     background-color: rgb(126, 155, 72);
 }
 .dropdown-menu{
-    width: 50vw;
+    width: 50%;
     background-color: white;
     align-items: center;
     align-self: center;
@@ -127,7 +126,7 @@ input.search{
     text-align: center;
     text-transform: uppercase;
     height: 80px;
-    width: 100vw;
+    width: 100%;
 }
 #dropdown{
     position: fixed;
@@ -139,6 +138,7 @@ input.search{
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: flex-end;
+    transition: opacity ease-in-out .5s;
 }
 .zastav{
     height: 100%;
@@ -154,14 +154,7 @@ input.search{
     background: transparent;
     border: none !important;
 }
-
-@media screen and (max-width: 1063px) and (min-width: 700px) {
-    nav{
-        height: 160px;
-    }
-
-}
-@media screen and (max-width: 768px) {    /* mobil */
+@media screen and (max-width: 1024px){    /* mobil */
     
     .odkazy a{
         visibility: hidden;
@@ -194,11 +187,23 @@ input.search{
         width: 70px;
         height: 70px;
     }
+    .blok{
+        padding: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+@media screen and (max-width:768px) {
     footer{
         flex-direction: column;
         height: 90vh;
     }
-    .blok{
-        padding: 20px;
+}
+@media screen and (max-height:500px){
+    .dropdown-menu{
+        height: 80%;
+    }
+    .dropdown-menu a{
+        height: 20%;
     }
 }
