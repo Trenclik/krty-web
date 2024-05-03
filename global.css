@@ -10,12 +10,32 @@
     z-index: 1;
 }
 main{
-    margin: 0px;
+    display: flex;
+
+}
+.stred{
+    width: 80%;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.stred h1 {
+    font-family: sans-serif;
+}
+.banner{
+    width: 20%;
 }
 @media screen and (max-width: 768px) { /* mobil */
     .slide{
         visibility: hidden;
         width: 0px;
         height: 0px;
+    }
+    .banner{
+        visibility: hidden;
+        width: 0px;
+    }
+    .stred{
+        width: 100%;
     }
 }

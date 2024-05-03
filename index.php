@@ -11,7 +11,15 @@
 ?>
 
     <main>
-        <img class="slide" src="/obrázky/slideshow.jpg" alt="">
+        <div class="banner">
+            bruh
+        </div>
+        <div class="stred">
+            <h1>Vítejte v Krtech</h1>
+            <div class="obsah">
+                <p></p>
+            </div>
+        </div>
 
     </main>
     <?php 

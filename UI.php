@@ -18,7 +18,7 @@
     </header>
     <nav>
         
-        <input class="search" type="text">
+        <input class="search" type="text" placeholder="Hledat...">
 
         <div class="odkazy">
             <a href="#">Obec</a>
