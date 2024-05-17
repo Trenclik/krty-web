@@ -14,16 +14,59 @@ main{
 
 }
 .stred{
-    width: 80%;
+    width: 75%;
     font-family: sans-serif;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.obsah{
+    background-color: rgb(247, 255, 245);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+    
 }
 .stred h1 {
     font-family: sans-serif;
 }
 .banner{
-    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 10px;
+    background-color:rgb(166, 206, 147);
+}
+.novinky{
+    display: flex;
+    background-color: azure;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    gap: 10px;
+}
+.aktu {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(247, 255, 245);
+    border-radius: 10px;
+    margin: 20px;
+    width: -webkit-fill-available;
+}
+
+
+.bruh{
+    background-color: rgba(205, 216, 203, 0.137);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+.bruh a{
+    color: black;
 }
 @media screen and (max-width: 768px) { /* mobil */
     .slide{
@@ -31,6 +74,18 @@ main{
         width: 0px;
         height: 0px;
     }
+    .banner{
+        padding: 0%;
+    }
+    .obsah{
+        background-color: rgb(234, 253, 230);
+    }
+    .aktu{
+        background-color: rgb(234, 253, 230);
+    }
+
+}
+@media screen and (max-width: 1260px) {
     .banner{
         visibility: hidden;
         width: 0px;
